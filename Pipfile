@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+split-folders = "*"
+matplotlib = "*"
+pandas = "*"
+pydot = "*"
+graphviz = "*"
+scipy = "*"
+scikit-learn = "*"
+opencv-python = "*"
+tensorflow-model-optimization = "==0.8.0"
+tensorflow = {extras = ["and-cuda"], version = "==2.14.1"}
+keras-flops = "*"
+albumentations = "*"
+seaborn = "*"
+scikit-image = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
