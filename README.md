@@ -7,7 +7,7 @@ This project explores deep learning models for detecting thermal anomalies in sp
 ### 1. Install Dependencies Using pipenv
 ```bash
 pipenv install
-pipenb shell
+pipenv shell
 ```
 
 ## Code Structure
